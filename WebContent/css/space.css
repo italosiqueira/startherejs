@@ -1,0 +1,58 @@
+﻿body {
+    font-family: arial, helvetica, sans-serif;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.hiddenPrice { display: none; }
+.hidden { display: none; }
+
+#formDiv { height: 250px; }
+#subhead {font-size: .6em; }
+
+.detailsLi {
+    list-style-type: none;
+}
+
+#priceSlider {
+    height: 250px;
+    margin-left: 100px;
+}
+
+#container {
+    float: left;
+    padding-left: 50px;
+    width: 290px;
+}
+
+#flightList li {
+    list-style-type: none;
+    border: 1px dashed grey;
+    text-align: center;
+}
+
+#flightList li:hover {
+    background-color: grey;
+}
+
+#flights {
+    float: left;
+    height: 250px;
+    padding-left: 50px;
+}
+
+#flightDetails {
+    float: left;
+    height: 250px;
+    padding-left: 50px;
+}
+
+#priceSlider .ui-slider-handle {
+    background: #000;
+}
+
+#priceSlider {
+    background: #808080;
+}
